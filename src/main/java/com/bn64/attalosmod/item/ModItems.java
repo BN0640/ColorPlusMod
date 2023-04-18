@@ -14,13 +14,16 @@ public class ModItems {
       
       public static final RegistryObject<Item> COLOR_DYE = ITEMS.register("color_dye",
          () -> new Item(new Item.Properties().tab(ModItemGroup.ColorPlus)));
-      public static final RegistryObject<Item> GREEN_GRASS_DYE = ITEMS.register("green_grass_dye",
+      public static final RegistryObject<Item> FOREST_GREEN_DYE = ITEMS.register("forest_green_dye",
          () -> new Item(new Item.Properties().tab(ModItemGroup.ColorPlus)));
       public static final RegistryObject<Item> FLAMING_ORANGE_DYE = ITEMS.register("flaming_orange_dye",
          () -> new Item(new Item.Properties().tab(ModItemGroup.ColorPlus)));
       public static final RegistryObject<Item> MIDNIGHT_BLUE_DYE = ITEMS.register("midnight_blue_dye",
          () -> new Item(new Item.Properties().tab(ModItemGroup.ColorPlus)));
-      
+      public static final RegistryObject<Item> GOLDEN_DYE = ITEMS.register("golden_dye",
+         () -> new Item(new Item.Properties().tab(ModItemGroup.ColorPlus)));
+   public static final RegistryObject<Item> FUCHSIA_DYE = ITEMS.register("fuchsia_dye",
+           () -> new Item(new Item.Properties().tab(ModItemGroup.ColorPlus)));
       public static void register(IEventBus eventBus) {
          ITEMS.register(eventBus); 
    }
