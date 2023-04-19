@@ -45,6 +45,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ISA_WOOL = registerBlock("isa_wool",
         () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
         .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+    public static final RegistryObject<Block> CRIMSON_RED_WOOL = registerBlock("crimson_red_wool",
+        () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+        .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {

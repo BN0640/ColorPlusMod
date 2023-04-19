@@ -1,5 +1,5 @@
 {
-    "itemGroup.attalosmod.colorplus": "Color Plus",
+    "itemGroup.ColorPlus": "Color Plus",
     "item.attalosmod.color_dye": "Color Dye",
     "item.attalosmod.forest_green_dye": "Forest Green Dye",
     "item.attalosmod.flaming_orange_dye": "Flaming Orange Dye",
@@ -8,6 +8,7 @@
     "item.attalosmod.fuchsia_dye": "Fuchsia Dye",
     "item.attalosmod.diamond_blue_dye": "Diamond Blue Dye",
     "item.attalosmod.isa_dye": "Isa Dye",
+    "item.attalosmod.crimson_red_dye": "Crimson Red Dye",
     "block.attalosmod.color_wool": "Color Wool",
     "block.attalosmod.forest_green_wool": "Forest Green Wool",
     "block.attalosmod.flaming_orange_wool": "Flaming Orange Wool",
@@ -15,5 +16,6 @@
     "block.attalosmod.golden_wool": "Golden Wool",
     "block.attalosmod.fuchsia_wool": "Fuchsia Wool",
     "block.attalosmod.diamond_blue_wool": "Diamond Blue Wool",
-    "block.attalosmod.isa_wool": "Isa Wool"
+    "block.attalosmod.isa_wool": "Isa Wool",
+    "block.attalosmod.crimson_red_wool": "Crimson Red Wool"
 }
