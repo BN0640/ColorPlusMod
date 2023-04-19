@@ -27,6 +27,25 @@ public class ModBlocks {
     public static final RegistryObject<Block> FOREST_GREEN_WOOL = registerBlock("forest_green_wool",
         () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
         .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+    public static final RegistryObject<Block> FLAMING_ORANGE_WOOL = registerBlock("flaming_orange_wool",
+        () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+        .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+    public static final RegistryObject<Block> MIDNIGHT_BLUE_WOOL = registerBlock("midnight_blue_wool",
+        () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+        .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+    public static final RegistryObject<Block> GOLDEN_WOOL = registerBlock("golden_wool",
+        () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+        .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+    public static final RegistryObject<Block> FUCHSIA_WOOL = registerBlock("fuchsia_wool",
+        () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+        .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+    public static final RegistryObject<Block> DIAMOND_BLUE_WOOL = registerBlock("diamond_blue_wool",
+        () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+        .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+    public static final RegistryObject<Block> ISA_WOOL = registerBlock("isa_wool",
+        () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+        .hardnessAndResistance(0.8f).sound(SoundType.CLOTH)));
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

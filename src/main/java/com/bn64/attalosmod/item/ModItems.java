@@ -24,6 +24,10 @@ public class ModItems {
          () -> new Item(new Item.Properties().group(ModItemGroup.ColorPlus)));
       public static final RegistryObject<Item> FUCHSIA_DYE = ITEMS.register("fuchsia_dye",
            () -> new Item(new Item.Properties().group(ModItemGroup.ColorPlus)));
+      public static final RegistryObject<Item> DIAMOND_BLUE_DYE = ITEMS.register("diamond_blue_dye",
+           () -> new Item(new Item.Properties().group(ModItemGroup.ColorPlus)));
+      public static final RegistryObject<Item> ISA_DYE = ITEMS.register("isa_dye",
+           () -> new Item(new Item.Properties().group(ModItemGroup.ColorPlus)));
            
       public static void register(IEventBus eventBus) {
          ITEMS.register(eventBus); 

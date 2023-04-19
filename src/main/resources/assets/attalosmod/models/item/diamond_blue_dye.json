@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "attalosmod:item/diamond_blue_dye"
+  }
+}
