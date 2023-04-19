@@ -7,7 +7,7 @@ public class ModItemGroup {
     
     public static final ItemGroup ColorPlus = new ItemGroup("ColorPlus") {
         @Override
-        public ItemStack makeIcon(){
+        public ItemStack createIcon(){
             return new ItemStack(ModItems.COLOR_DYE.get());
         }
     };

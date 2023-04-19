@@ -4,5 +4,6 @@
     "item.attalosmod.flaming_orange_dye": "Flaming Orange Dye",
     "item.attalosmod.midnight_blue_dye": "Midnight Blue Dye",
     "item.attalosmod.golden_dye": "Golden Dye",
-    "itemGroup.attalosmod.ColorPlus": "Color Plus"
+    "itemGroup.attalosmod.ColorPlus": "Color Plus",
+    "block.attalosmod.color_wool": "Color Wool"
 }
